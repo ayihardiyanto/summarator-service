@@ -1,0 +1,111 @@
+The quantity of information on the internet is
+massively increasing and gigantic volume of data with
+numerous compositions accessible openly online become
+more widespread. It is challenging nowadays for a user to
+extract the information efficiently and smoothly. As one
+of the methods to tackle this challenge, text
+summarization process diminishes the redundant
+information and retrieves the useful and relevant
+information from a text document to form a compressed
+and shorter version which is easy to understand and timesaving while reflecting the main idea of the discussed
+topic within the document. The approaches of automatic
+text summarization earn a keen interest within the Text
+Mining and NLP (Natural Language Processing)
+communities because it is a laborious job to manually
+summarize a text document. Mainly there are two types
+of text summarization, namely extractive based and
+abstractive based. This paper focuses on the extractive
+based summarization using K-Means Clustering with TFIDF (Term Frequency-Inverse Document Frequency) for
+summarization. The paper also reflects the idea of true K
+and using that value of K divides the sentences of the
+input document to present the final summary. Furth more,
+we have combined the K-means, TF-IDF with the issue
+of K value and predict the resulting system summary
+which shows comparatively best results.
+
+The huge amount of information in the form of textual
+data or textual corpus on the internet is massively
+increasing and gigantic quantity of other types of data
+(images, audio, video, etc.) which are freely available
+online on the internet become more widespread that is
+accessible with a single click to an ordinary client user.
+The technology that enables humans to interact with the
+machine in a smooth way is HLT (Human Language
+Technology) which is primarily based on natural
+communication skills. But as we know that the size of
+data is expanding and the average expansion rate
+anticipated by the analysts doubles every 20 months it is
+very difficult to cope with the massive data [1, 2, 3, 4].
+More precisely the phrase text summarization that fundamentally relies on achievement which is the
+contraction of one large text documents in a proper way
+to discharge redundant information. Also, recapture the
+useful and consistent information from text for
+compression and rigid variant which may easily
+understood and time conserving while echoing the
+leading concept of the explained subject in the text
+document with semantics. It is one of the keen research
+topics for NLP (natural language processing) and
+information retrieval. The classification of text
+summarization is subjected to Abstractive and Extractive
+type of summarization. The extractive type refers to the
+process in which we focus on selecting meaningful
+information in sentence or paragraph from within the
+primary document and link them in shorter form. While
+for the abstractive type it is required to understand the
+elemental image discussed in the document and then
+precisely explain that key concept using a fair clear
+natural language. Furthermore, the techniques can be
+grouped as informative and inductive summarization
+which reserve about twenty percent and five percent of
+summary for the original given passage respectively.
+Numerous applications are using text summarization
+that’s why the practitioners required a means for
+generating the summaries and provide the privilege for a
+decision that excluding demand of reading the whole
+document and also parallel reliable enough in detailing
+central ideas. Multi documents summarization is used by
+newsgroups for clustering and summarizing reports of
+distinct Media. But the overall undertaken process need
+reasonable NLP techniques. Primarily this paper focuses
+on experiments for extractive based text summarization
+using K-Mean with TF-IDF and reflects the idea of
+finding out true K value after following the approaches
+such as A) Elbow method. B) Silhouette method. The
+experimental portion will also show the evaluation and
+comparison for different K values when using K-means
+[5, 6, 7, 8, 9, 10]
+
+Information intently increasing day by day with range
+of formats on the internet that is freely usable and openly
+accessible worldwide. The volume of textual data is also
+rising rapidly on the internet which requires suitable
+mechanisms to inspect and extract consistent information
+from these textual data in order to make them easily
+readable and therefore beneficial for humans. That’s why
+the need of text summarization earns a keen interest that
+makes the text document comparatively shorter in
+version. Which is easy to grasp and time-saving while
+echoing the same idea that is the theme of discussion
+within the document. In our experiment, we used the Kmeans and TF-IDF method for extractive text
+summarization with K value predefined following the
+two well know methods that are used to get widespread
+for true K determination. As we can see from the
+statistical measures that our approach results in best
+output and we use two types of comparison evaluation to
+so. One thing that makes clear during all these
+experiments that before summarizing the online crawled
+or corpus texts we should give proper look to
+preprocessing step and make sure that all unnecessary
+characters, keywords, tags, and punctuations. In our
+forthcoming work, we will focus on the text document
+having redundant sentences because during
+summarization we need to keep track of multiple
+occurrences of sentences that may lead to useless results
+in the sense of resulting system summary that only
+contain these redundant sentences. Besides that, we can
+very easily encompass the multiple document
+summarization with slight logical changes in the program
+that will the part of our future work. Many things are
+explained but summarization is still open are of
+researchers and possible adopt range of methods towards
+the fruitful system summary achievement.
