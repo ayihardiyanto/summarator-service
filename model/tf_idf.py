@@ -1,11 +1,9 @@
 # %%
-import asyncio
 import nltk
 # import import_ipynb
 # import os
 import re
 import math
-import operator
 # import string
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
