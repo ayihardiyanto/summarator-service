@@ -1,15 +1,17 @@
 # from flask import escape
 # import json
 import asyncio
-from usecase import summarize_usecase
+from usecase.summarize_usecase import getSummaryResult
 
 
 def getSummarization(request):
     request_json = request.get_json(silent=True)
     try:
-        result = asyncio.run(summarize_usecase.getSummaryResult(request_json['text'], request_json['useClustering']))
+        print(request_json)
+        result = asyncio.run(getSummaryResult(request_json['text'], request_json['useClustering']))
         return {"status": 200, "message": "success", "result": result}
     except Exception as e:
+        print(e)
         return {"status": 500, "error": "Summarize Error", "message": e, }
 
 
