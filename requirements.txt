@@ -2,3 +2,6 @@ nltk
 numpy
 gensim
 sklearn
+scipy
+pandas
+scikit-learn-extra
