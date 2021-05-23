@@ -7,7 +7,6 @@ from usecase.summarize_usecase import getSummaryResult
 def getSummarization(request):
     request_json = request.get_json(silent=True)
     try:
-        print(request_json)
         result = asyncio.run(getSummaryResult(request_json['text'], request_json['useClustering']))
         return {"status": 200, "message": "success", "result": result}
     except Exception as e:

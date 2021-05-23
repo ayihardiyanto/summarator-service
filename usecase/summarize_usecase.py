@@ -1,5 +1,7 @@
 
 # import asyncio
+from model.cosine_similarities import performCosineSimilarity
+from model.k_medoids import performKMedoids
 from model.k_means import performKMeans
 import operator
 import re
@@ -30,9 +32,10 @@ async def getSummaryResult(text, useClustering):
     sentence_no.sort()
 
     summary = assembleWords(tokenized_sentence, sentence_no)
-    if(useClustering is True):
-        return performKMeans(summary)
-    return summary
+    if(useClustering is True and len(summary) > 3):
+        kMedoidsResult = performKMedoids(summary, 3)
+        return performCosineSimilarity(kMedoidsResult)
+    return performCosineSimilarity(summary)
     
 
 
@@ -49,7 +52,7 @@ def getSentenceImportance(tokenized_sentence, tokenized_words):
 
 def addSentenceNumber(tokenized_sentence, sentence_with_importance, sentence_no):
     cnt = 0
-    no_of_sentences = int((15 * len(tokenized_sentence))/100)
+    no_of_sentences = int((50 * len(tokenized_sentence))/100)
     for word_prob in sentence_with_importance:
         if cnt < no_of_sentences:
             sentence_no.append(word_prob[0])
